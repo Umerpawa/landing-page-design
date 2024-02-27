@@ -1,0 +1,147 @@
+
+/* .navbar {
+    display: flex;
+    margin: 80px;
+}
+
+h1{
+    position: relative;
+    left: 50px;
+    
+}
+
+.navbar p {
+    position: relative;
+    left: 700px;
+    top: 10px;
+    padding: 15px;
+} */
+
+
+.mid{
+    width: 80%;
+    border: 1px solid green;
+    margin: 0 auto;
+    display: flex;
+    gap: 5px;
+}
+img { 
+    height: 310px;
+    
+}
+
+#web {
+    width: 200px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    left: 0;
+    top: 15px;
+    
+}
+
+.flex {
+    display: flex;
+    gap: 100px;
+}
+
+#web1 {
+    width: 300px;
+}
+
+button{
+    padding: 10px;
+    background-color: red;
+}
+
+.New {
+    border: 2px solid black;
+    width: 100%;
+    background-color: black;
+}
+
+.New h1{
+    color: orange;
+    
+}
+
+.New h2{
+    margin: 10px;
+    color: white;
+}
+
+.New p{
+    margin: 10px;
+    color: gray;
+}
+
+.foot{
+    width: 80%;
+    border: 1px solid green;
+    margin: 15px auto;
+    display: flex;
+    gap: 5px;
+}
+
+
+
+.foot img{
+    height: 180px; 
+}
+
+.pc {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+
+#pc1{
+    width: 200px;  
+}
+
+#pc1 h1{
+    margin: 0;
+    left: 0;
+    color: gray;
+}
+
+#pc1 p {
+    color: gray;
+}
+
+
+@media screen and  (max-width: 500px) {
+     .mid {
+        display: block;
+        height: 100%;
+        width: 100%;    
+    } 
+
+    .mid img {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .flex {
+        display: block;
+        height: 100%;
+        width: 100%;  
+
+    } 
+
+    .New {
+        display: block;
+        height: 100%;
+        width: 100%; 
+        /* column-gap: 2rem; */
+        margin-top: 3rem;
+         
+    } 
+
+    .foot {
+        display: block;
+        height: 100%;
+        width: 100%; 
+    }
+}
